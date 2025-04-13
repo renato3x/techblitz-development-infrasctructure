@@ -22,3 +22,8 @@ variable "aws_s3_bucket_name" {
   type    = string
   default = ""
 }
+
+variable "aws_ses_email" {
+  type    = string
+  default = ""
+}

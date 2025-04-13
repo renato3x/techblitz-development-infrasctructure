@@ -8,7 +8,8 @@ provider "aws" {
   s3_use_path_style           = true
 
   endpoints {
-    s3 = var.aws_endpoint
+    s3  = var.aws_endpoint
+    ses = var.aws_endpoint
   }
 
   default_tags {
