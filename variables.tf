@@ -13,17 +13,7 @@ variable "aws_region" {
   default = ""
 }
 
-variable "aws_endpoint" {
-  type    = string
-  default = ""
-}
-
-variable "aws_s3_bucket_name" {
-  type    = string
-  default = ""
-}
-
-variable "aws_ses_email" {
+variable "storage_service_aws_s3_bucket_name" {
   type    = string
   default = ""
 }
